@@ -19,8 +19,8 @@ let timer1 = setInterval(eatForSnake, 1100)
 
 window.onkeydown = function (event) {
     if (event.keyCode === 39) newHead(0, 1)
-    else if (event.keyCode === 37) newHead(0, -1)
     else if (event.keyCode === 38) newHead(-1, 0)
+    else if (event.keyCode === 37) newHead(0, -1)
     else if (event.keyCode === 40) newHead(1, 0)
 }
 
